@@ -1,0 +1,7 @@
+data/
+reports/*.local.*
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+uv.lock

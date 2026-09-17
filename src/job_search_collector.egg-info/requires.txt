@@ -1,0 +1,7 @@
+python-jobspy>=0.31.0
+
+[dev]
+pytest>=8.0
+
+[yaml]
+pyyaml>=6.0

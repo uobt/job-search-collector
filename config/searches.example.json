@@ -1,0 +1,22 @@
+{
+  "sources": ["linkedin", "indeed"],
+  "queries": [
+    "Sales Development Representative",
+    "Business Development Representative"
+  ],
+  "locations": [
+    { "country": "GB", "city": "London" }
+  ],
+  "posted_within_days": 14,
+  "exclude_titles": ["internship"],
+  "max_results_per_search": 100,
+  "max_pages_per_search": 3,
+  "max_detail_requests_per_run": 20,
+  "fetch_descriptions": true,
+  "transport": {
+    "request_delay_seconds": 2.0,
+    "timeout_seconds": 30,
+    "max_retries": 2,
+    "indeed_domain": "www.indeed.com"
+  }
+}
